@@ -1,0 +1,4 @@
+/vendor/
+.idea/
+clover.xml
+--coverage-html

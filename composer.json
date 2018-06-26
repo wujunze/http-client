@@ -1,0 +1,34 @@
+{
+    "name": "wujunze/http-client",
+    "description": "http client component base on GuzzleHttp",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wujunze",
+            "email": "itwujunze@163.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "codedungeon/phpunit-result-printer": "^0.19.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "WuJunze\\HttpClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WuJunze\\HttpClient\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+      "test": " ./vendor/bin/phpunit --coverage-html --coverage-html"
+    }
+}
