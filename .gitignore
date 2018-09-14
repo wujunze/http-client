@@ -2,3 +2,4 @@
 .idea/
 clover.xml
 --coverage-html
+composer.lock
